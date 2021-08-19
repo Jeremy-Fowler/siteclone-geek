@@ -1,0 +1,35 @@
+.starlord-image{
+    background-image: url("/assets/what-if-episode-2-banner.png");
+    min-height: 55vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.geek-font{
+    font-family: 'Poppins', sans-serif;
+}
+
+.divider{
+    border-top: solid 3px black;
+    width: 100%;
+}
+
+.startrek-image{
+    background-image: url("/assets/image.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
+}
+
+@media only screen and (max-width: 768px){
+    .starlord-image{
+      background-image: url("/assets/What-If-TChalla-Starlord.jpg");
+    /* background-size: contain; */
+      min-height: 45vh;
+    }
+  }
+
+  .story-bg{
+      background-color: #e9eff3;
+  }
+  

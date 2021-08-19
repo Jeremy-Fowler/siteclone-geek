@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
+
+
+
+
+</head>
+<style>
+  /* This is for wire framing to see our rows/columns */
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="">
+  <header class="container-fluid text-light">
+    <div class="row bg-dark text-light">
+      <div class="col-1"></div>
+      <div class="col-10 p-0 m-auto">
+        <nav class="navbar navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand text-light"><b>SUBSCRIBE</b></a>
+            <h1 class="text-light text-center geek-font">DEN OF GEEK</h1>
+            <form class="d-flex">
+
+              <i class="mdi p-1 mdi-facebook mdi-spin mdi-24px text-light" aria-hidden="true"></i>
+              <i class="mdi p-1 mdi-twitter mdi-spin mdi-24px text-light" aria-hidden="true"></i>
+              <i class="mdi p-1 mdi-instagram mdi-spin mdi-24px text-light" aria-hidden="true"></i>
+              <i class="mdi p-1 mdi-youtube mdi-spin mdi-24px text-light" aria-hidden="true"></i>
+              <i class="mdi p-1 mdi-twitch mdi-spin mdi-24px text-light" aria-hidden="true"></i>
+
+
+
+              <button class="btn btn-outline-success text-light" type="submit"><i
+                  class="mdi p-1 mdi-magnify mdi-spin mdi-24px text-light" aria-hidden="true"></i></button>
+            </form>
+          </div>
+        </nav>
+        <div class="bg-dark col-1"></div>
+      </div>
+    </div>
+    <div class="row bg-dark justify-content-center border-top border-light p-3">
+      <div class="col-1"><b>MOVIES</b></div>
+      <div class="col-1"><b>TVS</b></div>
+      <div class="col-1"><b>GAMES</b></div>
+      <div class="col-1"><b>BOOKS</b></div>
+      <div class="col-1"><b>COMICS</b></div>
+      <div class="col-1"><b>CULTURE</b></div>
+      <div class="col-1"><b>VIDEO</b></div>
+      <div class="col-1"><b>SHOPPING</b></div>
+    </div>
+  </header>
+
+  <section class="container-fluid">
+    <div class="row starlord-image d-flex align-items-end">
+      <div class="col-1 m-5"></div>
+      <div class="col-4 text-light ms-4 p-4">
+        <button class="btn btn-danger"><b>TV</b></button>
+        <h1 class="text-wrap text-large geek-font"><b>Chadwick Boseman's Legacy in What if...?</b></h1>
+        <p>By Don Kaye</p>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+  <div class="container">
+    <div class="row justify-content-space-evenly d-flex">
+      <div class="col-3 text-center flex-column justify-content-center p-3">
+        <img src="/assets/image.png" class="img-fluid" alt="">
+        <button type="button" class="btn m-3 btn-danger"><b>TV</b></button>
+        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum soluta iste voluptatum aliquid labore quia
+          molestiae illo?</h5>
+        <p>By David Crowe</p>
+
+      </div>
+      <div class="col-6 text-center flex-column justify-content-center p-3">
+        <img src="/assets/Best-Movies-of-2021.jpg" class="img-fluid" alt="">
+        <button type="button" class="btn m-3 btn-success"><b>Movies</b></button>
+        <h4>10 Best Movies of 2021 so far</h4>
+        <p>By David Crowe and 1 other</p>
+      </div>
+      <div class="col-3 text-center flex-column justify-content-center p-3">
+        <img src="/assets/marvel-eternals-celestial-galactus.png" class="img-fluid" alt="">
+        <button type="button" class="btn m-3 btn-success"><b>Movies</b></button>
+        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum soluta iste voluptatum aliquid labore quia
+          molestiae illo?</h5>
+        <p>By David Crowe</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row story-bg my-4 py-5">
+      <div class="col-2"></div>
+      <div class="col-3 divider"></div>
+      <div class="col-2 align-center my-5 border border-dark">test</div>
+      <div class="col-3 divider"></div>
+      <div class="col-2"></div>  
+        <div class="row justify-content-space-evenly d-flex m-auto">
+          <div class="col-2"></div>
+          <div class="col-2 text-center flex-column justify-content-center p-3">
+            <img src="/assets/beckett-john-david-washington-netflix-1.jpg" class="img-fluid" alt="">
+            <button type="button" class="btn m-3 btn-success"><b>Movies</b></button>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum soluta iste voluptatum aliquid labore quia
+            molestiae illo?</h5>
+            <p>By David Crowe</p>
+          </div>
+          <div class="col-2 text-center flex-column justify-content-center p-3">
+            <img src="/assets/he-man-and-the-masters-of-the-universe-heroes-netflix.jpg" class="img-fluid" alt="">
+            <button type="button" class="btn m-3 btn-danger"><b>TV</b></button>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum soluta iste voluptatum aliquid labore quia
+            molestiae illo?</h5>
+            <p>By David Crowe</p>
+          </div>
+          <div class="col-2 text-center flex-column justify-content-center p-3">
+            <img src="/assets/batman-michael-keaton.jpg" class="img-fluid" alt="">
+            <button type="button" class="btn m-3 btn-success"><b>Movies</b></button>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum soluta iste voluptatum aliquid labore quia
+            molestiae illo?</h5>
+            <p>By David Crowe</p>
+          </div>
+          <div class="col-2 text-center flex-column justify-content-center p-3">
+            <img src="/assets/superman-and-lois-episode-15-last-sons-of-krypton-tyler-hoechlin-elizabeth-tulloch.jpg" class="img-fluid" alt="">
+            <button type="button" class="btn m-3 btn-danger"><b>TV</b></button>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum soluta iste voluptatum aliquid labore quia
+            molestiae illo?</h5>
+            <p>By David Crowe</p>
+          </div>
+          <div class="col-2"></div>
+      </div>
+  </div>
+</body>
+
+</html>
